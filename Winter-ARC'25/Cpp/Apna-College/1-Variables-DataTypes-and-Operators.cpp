@@ -43,9 +43,22 @@ int main()
 
     // Logical Operators
     cout << "Logical Operators" << "\n";
-    cout << "OR : " << ((a < b) || (a > b)) << endl;  // Added parentheses for clarity
-    cout << "AND : " << ((a < b) && (a > b)) << endl; // Added parentheses for clarity
-    cout << "NOT : " << !(a < b) << endl;             // Fixed NOT operator example
+    cout << "OR : " << ((a < b) || (b > 0)) << endl;
+    cout << "AND : " << ((a < b) && (b > 0)) << endl;
+    cout << "NOT : " << !(a > b) << endl;
 
+    // Unary Operators
+    cout << "\nUnary Operators\n";
+    b = ++a; // Pre Increment
+    cout << "Pre-Increment: b = " << b << ", a = " << a << endl;
+
+    b = a++; // Post Increment
+    cout << "Post-Increment: b = " << b << ", a = " << a << endl;
+
+    b = --a; // Pre Decrement
+    cout << "Pre-Decrement: b = " << b << ", a = " << a << endl;
+
+    b = a--; // Post Decrement
+    cout << "Post-Decrement: b = " << b << ", a = " << a << endl;
     return 0;
 }
