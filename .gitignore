@@ -1,20 +1,2 @@
-Winter-ARC'25/C/1. Variable, Datatypes and IO/star_pattern.exe
-Winter-ARC'25/C/1. Variable, Datatypes and IO/1star_pattern.exe
-Winter-ARC'25/C/1. Variable, Datatypes and IO/2star_pattern.exe
-Winter-ARC'25/C/1. Variable, Datatypes and IO/3Welcome-Name.exe
-Winter-ARC'25/C/1. Variable, Datatypes and IO/6Circumference-of-Circle.exe
-Winter-ARC'25/C/1. Variable, Datatypes and IO/5Area_of_Square.exe
-Winter-ARC'25/C/1. Variable, Datatypes and IO/4two_variables.exe
-Winter-ARC'25/Cpp/Apna-College/1-Variables-DataTypes-and-Operators.exe
-Winter-ARC'25/Cpp/Apna-College/tempCodeRunnerFile.exe
-Winter-ARC'25/C/1. Variable, Datatypes and IO/7Area-of-Circle.exe
-Winter-ARC'25/C/1. Variable, Datatypes and IO/9-Swap-two-numbers.exe
-Winter-ARC'25/C/1. Variable, Datatypes and IO/8-Radius-of-Circle.exe
-Winter-ARC'25/C/2. Instructions, Expressions and Operators/17-Fahrenheit-to-Celcius.exe
-Winter-ARC'25/C/2. Instructions, Expressions and Operators/16-Compound-Interest.exe
-Winter-ARC'25/C/2. Instructions, Expressions and Operators/15-Simple-Interest.exe
-Winter-ARC'25/C/2. Instructions, Expressions and Operators/11-Convert.exe
-Winter-ARC'25/C/2. Instructions, Expressions and Operators/10-Arithmatic-Opeartors.exe
-Winter-ARC'25/C/2. Instructions, Expressions and Operators/14-Area-of-triangle.exe
-Winter-ARC'25/C/2. Instructions, Expressions and Operators/12-Float-muliplicaton.exe
-Winter-ARC'25/C/2. Instructions, Expressions and Operators/13-Perimeter-of-rectangle.exe
+Winter-ARC'25/C/**/*.exe
+Winter-ARC'25/Cpp/**/*.exe

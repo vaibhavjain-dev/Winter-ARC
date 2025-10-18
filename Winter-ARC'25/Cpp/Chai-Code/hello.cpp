@@ -3,5 +3,8 @@
 using namespace std;
 int main()
 {
-    cout << "ich bin Vai";
+    cout << "ich bin Vai" << endl;
+    return 0;
 }
+
+/////////////////////////////////////////////////////////////////////////////////////
