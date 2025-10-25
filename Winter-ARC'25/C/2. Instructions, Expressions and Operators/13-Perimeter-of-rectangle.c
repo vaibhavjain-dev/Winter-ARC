@@ -21,7 +21,7 @@ int main()
 
     int perimeter = a + b + c + d;
 
-    printf("Perimeter = %d\n", perimeter);
+    printf("The Perimeter of your shape is = %d\n", perimeter);
 
     return 0;
 }

@@ -6,16 +6,16 @@ int main()
 {
     printf(" --Simple Interest Calculator-- \n");
 
-    int principal, rate, time;
+    float principal, rate, time;
 
     printf("Enter the Principal: ");
-    scanf("%d", &principal);
+    scanf("%f", &principal);
 
     printf("Enter the Rate: ");
-    scanf("%d", &rate);
+    scanf("%f", &rate);
 
     printf("Enter the Time: ");
-    scanf("%d", &time);
+    scanf("%f", &time);
 
     float Interest = (principal * rate * time) / 100.0;
     printf("The Simple Interest is: %.2f\n", Interest);

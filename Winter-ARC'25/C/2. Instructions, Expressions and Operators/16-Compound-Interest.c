@@ -5,7 +5,7 @@
 
 int main()
 {
-    printf(" --Compound Interest Calculator-- \n");
+    printf("-- Compound Interest Calculator --\n");
 
     int principal, rate, time;
 
@@ -18,8 +18,8 @@ int main()
     printf("Enter the Time: ");
     scanf("%d", &time);
 
-    // Calculate compound interest using floating-point division
-    float Interest = principal * pow((1 + (float)rate / 100), time);
+    // Calculate compound interest
+    float Interest = principal * pow((1 + rate / 100.0), time);
 
     printf("The Compound Interest is: %.2f\n", Interest);
 

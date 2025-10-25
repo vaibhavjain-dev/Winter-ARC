@@ -9,12 +9,13 @@ int main()
     printf("Please enter a number: ");
     scanf("%d", &number);
 
-    printf("Num: %d", number);
+    printf("%d", number);
 
+    // Implicit Conversion
     float floating = number;
-    printf("\nOriginal number is: %d", number);
-    printf("\nImplicit Float converted number is: %f", floating);
-    printf("\nExplicit Float converted number is: %f\n", (float)number);
 
+    printf("\n Original number is :- %d", number);
+    printf("\n float converted is :- %f", floating);
+    printf("\n float converted is :- %f", (float)number);
     return 0;
 }

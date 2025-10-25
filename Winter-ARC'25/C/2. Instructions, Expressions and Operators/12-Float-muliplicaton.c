@@ -5,16 +5,9 @@
 int main()
 {
     float first, second;
+    printf("Enter two numbers:-");
+    scanf("%f %f", &first, &second);
 
-    printf("Enter first number: ");
-    scanf("%f", &first);
-
-    printf("Enter second number: ");
-    scanf("%f", &second);
-
-    float result = first * second;
-
-    printf("\nResult = %.2f\n", result);
-
+    printf("\nThe multiplication of these 2 :- %.2f", first * second);
     return 0;
 }
