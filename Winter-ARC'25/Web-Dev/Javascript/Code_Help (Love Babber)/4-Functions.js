@@ -40,3 +40,21 @@ function addNumbers(a, b) {
 }
 let result = addNumbers(10, 20);
 console.log("Sum:", result);
+
+
+// ------------------------------------------------------------
+// 🔹 Function Expression Example
+// ------------------------------------------------------------
+let getMultiplication = function (a, b) {
+    return a * b;
+};
+console.log("Multiplication:", getMultiplication(2, 5));
+
+
+// ------------------------------------------------------------
+// 🔹 Arrow Function Example (ES6+)
+// ------------------------------------------------------------
+let getExp = (x, y) => {
+    return x ** y;
+};
+console.log("Exponentiation:", getExp(2, 10));
