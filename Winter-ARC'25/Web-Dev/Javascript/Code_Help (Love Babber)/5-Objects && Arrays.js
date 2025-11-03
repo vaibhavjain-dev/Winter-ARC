@@ -1,6 +1,7 @@
 console.log("\n--- Objects && Arrays in JS ---\n");
 
-// --- Object Example ---
+
+// --- 🧠 Object Example ---
 console.log("Object : collection of data in key : value pairs");
 
 let obj = {
@@ -20,19 +21,22 @@ obj.greet();
 let obj2 = obj;
 console.log("Copied object (obj2):", obj2);
 
-// --- Array Example ---
+
+// --- 🧩 Array Example ---
 console.log("\n --- Arrays : Collection of Data/elements ---\n");
 
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let arr2 = new Array("Vaibhav", "Jain", 18, "Web3 Developer", 10000000);
 
-console.log(arr);
-console.log(arr2);
-console.log(typeof arr);
-console.log(typeof arr2);
+console.log("Array 1:", arr);
+console.log("Array 2:", arr2);
+console.log("Type of arr:", typeof arr);
+console.log("Type of arr2:", typeof arr2);
 
 console.log("First element of arr2:", arr2[0]);
 
+
+// --- 📋 Object Example (Array Methods List) ---
 let methodsInARRAYs = {
     1: "Push",
     2: "Pop",
@@ -49,6 +53,8 @@ let methodsInARRAYs = {
 
 console.table(methodsInARRAYs);
 
+
+// --- 🧮 Demonstrating Array Methods ---
 console.log("Original arr2:", arr2);
 
 arr2.push('JainSahab');
@@ -60,5 +66,5 @@ console.log("After pop:", arr2);
 arr2.shift();
 console.log("After shift:", arr2);
 
-arr2.unshift('Vaibhav');
+arr2.unshift('JainSahab');
 console.log("After unshift:", arr2);
