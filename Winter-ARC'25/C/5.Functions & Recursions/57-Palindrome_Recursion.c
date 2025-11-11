@@ -1,19 +1,17 @@
-#include <stdio.h>
+// -------------------------------------------------------------
+// 💠 Program Title: Find Palindrome of a Number (Iterative Method)
+// 💻 Description: Reverses a number using a while loop and checks
+//                 if it is a palindrome.
+// -------------------------------------------------------------
 
-int Palindrome(int position)
-{
-    if (position <= = 1)
-    {
-        return position;
-    }
-    return 
-}
+#include <stdio.h>
 
 int main()
 {
-    printf("---Find the palindrome of a num using Palindorme---\n");
+    printf("--- Palindrome Checker (Iterative) ---\n");
+
     int num;
-    printf("Enter the num: ");
+    printf("Enter a number: ");
     scanf("%d", &num);
 
     int copy = num;
@@ -26,7 +24,10 @@ int main()
         copy = copy / 10;
     }
 
-    printf("Palindrome of %d is %d\n", num, reverse);
+    if (num == reverse)
+        printf("\n%d is a Palindrome number.\n", num);
+    else
+        printf("\n%d is NOT a Palindrome number.\n", num);
 
     return 0;
 }
