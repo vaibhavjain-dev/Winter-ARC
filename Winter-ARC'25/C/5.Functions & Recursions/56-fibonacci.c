@@ -1,6 +1,12 @@
+// -------------------------------------------------------------
+// 💠 Program Title: Fibonacci Series using Recursion
+// 💻 Description: Demonstrates recursion in C by calculating and
+//                 displaying the Fibonacci series up to a given position.
+// -------------------------------------------------------------
+
 #include <stdio.h>
 
-// Recursive function to find Fibonacci of a position
+// Recursive function to find Fibonacci number at a given position
 int fibonacci(int position)
 {
     if (position == 0)
@@ -14,10 +20,12 @@ int fibonacci(int position)
 int main()
 {
     int num;
-    printf("Enter a number: ");
+
+    printf("--- Fibonacci Series using Recursion ---\n");
+    printf("Enter the number of terms: ");
     scanf("%d", &num);
 
-    printf("Fibonacci series up to position %d: ", num);
+    printf("\nFibonacci series up to %d terms:\n", num);
 
     for (int i = 0; i < num; i++)
     {
@@ -25,5 +33,6 @@ int main()
     }
 
     printf("\n");
+
     return 0;
 }
